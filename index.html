@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+
+    <nav>
+        <button onclick="toggleSidebar()" id="menu-button">
+            <i class='bx bx-menu'></i></button>
+            <header>Personal Website</header>
+    </nav>
+
+
+
+    <aside id="sidebar">
+        <div class="image">
+            <div class="circle"></div>
+            <h1 id="name">Rahul</h1>
+        </div>
+
+        <div class="nav-button">
+            <button class="navigate" onclick="myProject()">Projects</button>
+            <button class="navigate" id="profile" onclick="profile()">Profile</button>
+            <button class="navigate" onclick="toLink()" id="git">Github</button>
+            <button class="navigate" id="contact">Contact</button>
+        </div>
+
+        <div class="portfolio">
+            <button id="portfolio">VIEW PORTFOLIO</button>
+        </div>
+    </aside>
+
+
+
+    <main id="main">
+            <div class="content">
+                <div class="main-content">
+                    <h2 id="inner-text">Welcome to Personal Web</h2>
+                    <p id="p">To know more about me, click 'Profile'</p>
+                    <p id="q"></p>
+                </div>
+            </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
